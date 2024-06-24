@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <title>Validation</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>User Register Form</h1>
+        <form class="form" id="form">
+            <label id="firstLabel">
+                Name
+                <input type="text" id="name">
+                <div class="errorContainer"></div>
+            </label>
+            <label id="secondLabel">
+                Surname
+                <input type="text" id="surname">
+                <div class="errorContainer"></div>
+            </label>
+            <label id="thirdLabel">
+                Phone
+                <input type="text" id="phone">
+                <div class="errorContainer"></div>
+            </label>
+            <label id="fourthLabel">
+                Email
+                <input type="email" id="email">
+                <div class="errorContainer"></div>
+            </label>
+            <label id="fifthLabel">
+                Password
+                <input type="text" id="password">
+                <div class="errorContainer"></div>
+            </label>
+            <label id="sixthLabel">
+                Repeat Password
+                <input type="text" id="repeatPassword">
+                <div class="errorContainer"></div>
+            </label>
+            <label>
+                <input type="submit" value="Register" id="submit">
+            </label>
+        </form>
+    </div>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
